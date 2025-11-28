@@ -1,0 +1,5 @@
+google-adk
+face_recognition
+exifread
+pillow
+pillow-heif

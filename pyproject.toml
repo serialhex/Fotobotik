@@ -1,0 +1,13 @@
+[project]
+name = "fotobotik"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk",
+    "face_recognition",
+    "exifread",
+    "pillow",
+    "pillow-heif"
+]
