@@ -1,5 +1,6 @@
 # Fotobotik
 
+An agent & application designed to aid in organizing photos and reliving memories.
 
 ## How to run for the first time
 

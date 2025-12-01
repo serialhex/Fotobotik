@@ -48,7 +48,7 @@ async def _process_inline_data_part(
 
     return [
         Part(
-            text=f"[User Uploaded Artifact] Below is the content of artifact ID : {artifact_id}"
+            text=f"[User Uploaded Artifact] Below is the content of artifact ID : \"{artifact_id}\""
         ),
         part,
     ]
@@ -71,4 +71,4 @@ def _generate_artifact_id(part: Part) -> str:
     mime_type = part.inline_data.mime_type
     extension = mime_type.split("/")[-1]
 
-    return f"{filename}_[{content_hash}].{extension}"
+    return f"usr_upl_img_{content_hash}.{extension}"
